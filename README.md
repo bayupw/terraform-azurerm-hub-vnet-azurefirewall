@@ -8,7 +8,7 @@ Terraform module to deploy Azure Hub Virtual Network and with Azure Firewall inc
 ## Sample usage
 
 ```hcl
-module "hub {
+module "hub" {
   source  = "bayupw/hub-vnet-azurefirewall/azurerm"
   version = "0.0.1"
 
